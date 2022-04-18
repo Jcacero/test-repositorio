@@ -69,7 +69,14 @@ body {
     letter-spacing: -.05rem;
   }
   
-  
+  .zoomEquipo {
+    transition: transform .2s; 
+}
+ 
+.zoomEquipo:hover {
+    transform: scale(1.2);
+}
+
   /* RESPONSIVE CSS
   -------------------------------------------------- */
   
